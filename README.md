@@ -27,7 +27,6 @@ InsightAI helps business owners, researchers, and professionals make informed, d
 ## 🔧 Tech Stack
 
 - 🌐 Next.js
-- ☁️ Vercel (for deployment)
 - 🧠 OpenAI / Groq (LLMs)
 - 📊 Chart.js / Recharts
 - 🗃️ SQLite / CSV / XLSX file parsing
@@ -40,8 +39,7 @@ InsightAI helps business owners, researchers, and professionals make informed, d
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/your-username/insightai.git
-cd insightai
+git clone https://github.com/HassanKhalid768768/Final-Year-Project
 ```
 
 ### 2️⃣ Install dependencies
@@ -140,24 +138,61 @@ Just drag & drop or upload your files to begin exploring your data intuitively!
 Explore InsightAI in action with the following demo videos:
 
 ### 📤 Data Upload
-[Data Upload](https://github.com/user-attachments/assets/fef3384c-d2af-448d-a9d7-82dfd5f893b0)
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/fef3384c-d2af-448d-a9d7-82dfd5f893b0)
 
-| 📝 Rename File | ![Rename File](https://github.com/user-attachments/assets/6e361692-cbe7-4280-9e07-288bcfdac068) |
-| 🧾 Rename Column | ![Rename Column](https://github.com/user-attachments/assets/94076e1d-e5e6-4375-9d0a-082cfca8ea9b) |
-| 🔍 Filter Data | ![Filter Data](https://github.com/user-attachments/assets/a301e8ea-178b-479b-940d-e883576a7931) |
-| ✏️ Edit Item | ![Edit Item](https://github.com/user-attachments/assets/2835a3dd-38a2-4cdf-b71a-f495f7bb0ef8) |
-| 🗑️ Delete File | ![Delete File](https://github.com/user-attachments/assets/03c5740a-1dec-4dc3-8f0f-9e24f2317e4a) |
-| ❌ Delete Column | ![Delete Column](https://github.com/user-attachments/assets/87abea09-2d32-461e-aa45-31c8f86d56b5) |
-| ➕ Create New Item | ![Create New Item](https://github.com/user-attachments/assets/79f95812-9f9a-4f36-95ca-9c1fff819a76) |
-| 🧮 Column Calculator | ![Column Calculator](https://github.com/user-attachments/assets/965d4722-5000-4129-b9bc-848b9c676bed) |
-| 📊 Analyze Data | ![Analyze Data](https://github.com/user-attachments/assets/3f7422f7-21d4-4cf3-be3a-ea1c8e37986c) |
-| 📁 Custom Dashboard | ![Custom Dashboard](https://github.com/user-attachments/assets/694d3e55-26c6-4f8d-8680-98d0ebb6675b) |
-| 🤖 AI Generated Dashboard | ![AI Generated Dashboard](https://github.com/user-attachments/assets/efa5ef92-707d-4689-9235-5c9deec3de5b) |
-| 💬 AI Chat 1 | ![AI Chat 1](https://github.com/user-attachments/assets/d915ac54-2fdd-4b37-aa50-1e17f001eca6) |
-| 💬 AI Chat 2 | ![AI Chat 2](https://github.com/user-attachments/assets/8c4772c5-cfb2-4129-8233-cbc6d7e95065) |
-| 💬 AI Chat 3 | ![AI Chat 3](https://github.com/user-attachments/assets/d1bbd807-9edc-4f1e-93f1-d18ed8e19fc2) |
-| 💬 AI Chat 4 | ![AI Chat 4](https://github.com/user-attachments/assets/8acd625e-b6fd-40d1-b2b6-1a17a2663ce1) |
-| 📝 Report Generation | ![Report Generation](https://github.com/user-attachments/assets/06d2063a-66a6-4bb9-809d-0c0ea4ebaa40) |
-| 💾 View and Save Report | ![View and Save Report](https://github.com/user-attachments/assets/b4d6f182-809e-4030-97bb-cf27e3f66a70) |
-| ⚙️ Preprocessing Data | ![Preprocessing Data](https://github.com/user-attachments/assets/9b1b6c90-a893-4b1e-96d5-e46d905738d4) |
-| 🔁 Mermaid Diagram | ![Mermaid Diagram](https://github.com/user-attachments/assets/2d3cec9a-ac61-4a0e-bfd0-4325183f2bd9) |
+### 📝 Rename File
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/6e361692-cbe7-4280-9e07-288bcfdac068)
+
+### 🧾 Rename Column
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/94076e1d-e5e6-4375-9d0a-082cfca8ea9b)
+
+### 🔍 Filter Data
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/a301e8ea-178b-479b-940d-e883576a7931)
+
+### ✏️ Edit Item
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/2835a3dd-38a2-4cdf-b71a-f495f7bb0ef8)
+
+### 🗑️ Delete File
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/03c5740a-1dec-4dc3-8f0f-9e24f2317e4a)
+
+### ❌ Delete Column
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/87abea09-2d32-461e-aa45-31c8f86d56b5)
+
+### ➕ Create New Item
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/79f95812-9f9a-4f36-95ca-9c1fff819a76)
+
+### 🧮 Column Calculator
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/965d4722-5000-4129-b9bc-848b9c676bed)
+
+### 📊 Analyze Data
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/3f7422f7-21d4-4cf3-be3a-ea1c8e37986c)
+
+### 📁 Custom Dashboard
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/694d3e55-26c6-4f8d-8680-98d0ebb6675b)
+
+### 🤖 AI Generated Dashboard
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/efa5ef92-707d-4689-9235-5c9deec3de5b)
+
+### 💬 AI Chat 1
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/d915ac54-2fdd-4b37-aa50-1e17f001eca6)
+
+### 💬 AI Chat 2
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/8c4772c5-cfb2-4129-8233-cbc6d7e95065)
+
+### 💬 AI Chat 3
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/d1bbd807-9edc-4f1e-93f1-d18ed8e19fc2)
+
+### 💬 AI Chat 4
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/8acd625e-b6fd-40d1-b2b6-1a17a2663ce1)
+
+### 📝 Report Generation
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/06d2063a-66a6-4bb9-809d-0c0ea4ebaa40)
+
+### 💾 View and Save Report
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/b4d6f182-809e-4030-97bb-cf27e3f66a70)
+
+### ⚙️ Preprocessing Data
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/9b1b6c90-a893-4b1e-96d5-e46d905738d4)
+
+### 🔁 Mermaid Diagram
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/2d3cec9a-ac61-4a0e-bfd0-4325183f2bd9)
