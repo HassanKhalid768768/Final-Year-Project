@@ -139,7 +139,7 @@ Just drag & drop or upload your files to begin exploring your data intuitively!
 
 Explore InsightAI in action with the following demo videos:
 
-# 📤 Data Upload
+### 📤 Data Upload
 [Data Upload](https://github.com/user-attachments/assets/fef3384c-d2af-448d-a9d7-82dfd5f893b0)
 
 | 📝 Rename File | ![Rename File](https://github.com/user-attachments/assets/6e361692-cbe7-4280-9e07-288bcfdac068) |
