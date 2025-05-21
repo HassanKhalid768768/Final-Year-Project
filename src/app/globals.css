@@ -1,0 +1,283 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @layer base {
+    :root {
+      --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+      --radius: 0.5rem;
+      --chart-1: 12 76% 61%;
+      --chart-2: 173 58% 39%;
+      --chart-3: 197 37% 24%;
+      --chart-4: 43 74% 66%;
+      --chart-5: 27 87% 67%;
+    }
+
+    .dark {
+      --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+      --chart-1: 220 70% 50%;
+      --chart-2: 160 60% 45%;
+      --chart-3: 30 80% 55%;
+      --chart-4: 280 65% 60%;
+      --chart-5: 340 75% 55%;
+    }
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }
+  /* Add this to your global CSS or component styles */
+
+.react-resizable {
+  position: relative;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  right: 0;
+  background: none;
+  padding: 0 3px 3px 0;
+  cursor: se-resize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-resizable-handle::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #94a3b8;
+  border-bottom: 2px solid #94a3b8;
+  transition: all 0.2s ease;
+}
+
+.react-resizable-handle:hover::after {
+  width: 10px;
+  height: 10px;
+  border-color: #475569;
+}
+
+
+
+/* Add these styles to your global CSS file */
+
+/* Enhanced resize handles */
+.react-resizable-handle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(59, 130, 246, 0.5);
+  border-radius: 50%;
+  border: 2px solid white;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+  z-index: 10;
+}
+
+/* Resize handle positions */
+.react-resizable-handle-se {
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
+
+.react-resizable-handle-sw {
+  bottom: 0;
+  left: 0;
+  cursor: sw-resize;
+}
+
+.react-resizable-handle-nw {
+  top: 0;
+  left: 0;
+  cursor: nw-resize;
+}
+
+.react-resizable-handle-ne {
+  top: 0;
+  right: 0;
+  cursor: ne-resize;
+}
+
+.react-resizable-handle-n {
+  top: 0;
+  left: 50%;
+  cursor: n-resize;
+}
+
+.react-resizable-handle-e {
+  top: 50%;
+  right: 0;
+  cursor: e-resize;
+}
+
+.react-resizable-handle-s {
+  bottom: 0;
+  left: 50%;
+  cursor: s-resize;
+}
+
+.react-resizable-handle-w {
+  top: 50%;
+  left: 0;
+  cursor: w-resize;
+}
+
+/* Show resize handles on hover or during active resize */
+.react-resizable:hover .react-resizable-handle,
+.resize-active .react-resizable-handle {
+  opacity: 0.8;
+}
+
+.resize-active .react-resizable-handle {
+  background-color: rgba(59, 130, 246, 0.8);
+}
+
+/* Active drag styling */
+.node-dragging {
+  opacity: 0.8 !important;
+  cursor: grabbing !important;
+  outline: 2px dashed #3b82f6 !important;
+  outline-offset: 2px;
+}
+
+/* Active resize styling */
+.node-resizing {
+  outline: 2px dashed #3b82f6 !important;
+  outline-offset: 2px;
+}
+
+/* Improve drag handle visibility */
+.drag-handle {
+  position: relative;
+}
+
+.drag-handle::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgba(59, 130, 246, 0.2);
+  box-shadow: 12px 0 0 rgba(59, 130, 246, 0.2),
+              24px 0 0 rgba(59, 130, 246, 0.2);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.drag-handle:hover::after {
+  opacity: 1;
+}
+
+/* Active dragging cursor for entire document */
+body.node-drag-active {
+  cursor: grabbing !important;
+}
+
+body.node-drag-active * {
+  cursor: grabbing !important;
+}
+
+/* Improve node selection visibility */
+.react-flow__node.selected {
+  outline: 2px solid #3b82f6 !important;
+  z-index: 10 !important;
+}
+
+/* Optimize transitions */
+.react-flow__node {
+  transition: transform 0.1s ease, width 0.1s ease, height 0.1s ease;
+}
+
+/* Smooth chart iframe transitions */
+iframe {
+  transition: opacity 0.2s ease;
+}
+
+/* Animation for movement/resize feedback */
+@keyframes pulse-subtle {
+  0% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0.8; }
+}
+
+.moving-feedback, .resizing-feedback {
+  animation: pulse-subtle 1s infinite ease-in-out;
+}
+
+/* @keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes bounceSlight {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-bounce-subtle {
+  animation: bounceSlight 2s infinite ease-in-out;
+} */
