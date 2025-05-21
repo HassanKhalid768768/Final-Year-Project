@@ -139,8 +139,6 @@ Just drag & drop or upload your files to begin exploring your data intuitively!
 
 Explore InsightAI in action with the following demo videos:
 
-| Feature | Demo |
-|--------|------|
 | 📤 Data Upload | ![Data Upload](https://github.com/user-attachments/assets/fef3384c-d2af-448d-a9d7-82dfd5f893b0) |
 | 📝 Rename File | ![Rename File](https://github.com/user-attachments/assets/6e361692-cbe7-4280-9e07-288bcfdac068) |
 | 🧾 Rename Column | ![Rename Column](https://github.com/user-attachments/assets/94076e1d-e5e6-4375-9d0a-082cfca8ea9b) |
@@ -161,4 +159,3 @@ Explore InsightAI in action with the following demo videos:
 | 💾 View and Save Report | ![View and Save Report](https://github.com/user-attachments/assets/b4d6f182-809e-4030-97bb-cf27e3f66a70) |
 | ⚙️ Preprocessing Data | ![Preprocessing Data](https://github.com/user-attachments/assets/9b1b6c90-a893-4b1e-96d5-e46d905738d4) |
 | 🔁 Mermaid Diagram | ![Mermaid Diagram](https://github.com/user-attachments/assets/2d3cec9a-ac61-4a0e-bfd0-4325183f2bd9) |
-
