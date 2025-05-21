@@ -139,7 +139,8 @@ Just drag & drop or upload your files to begin exploring your data intuitively!
 
 Explore InsightAI in action with the following demo videos:
 
-| 📤 Data Upload | ![Data Upload](https://github.com/user-attachments/assets/fef3384c-d2af-448d-a9d7-82dfd5f893b0) |
+[Data Upload](https://github.com/user-attachments/assets/fef3384c-d2af-448d-a9d7-82dfd5f893b0)
+
 | 📝 Rename File | ![Rename File](https://github.com/user-attachments/assets/6e361692-cbe7-4280-9e07-288bcfdac068) |
 | 🧾 Rename Column | ![Rename Column](https://github.com/user-attachments/assets/94076e1d-e5e6-4375-9d0a-082cfca8ea9b) |
 | 🔍 Filter Data | ![Filter Data](https://github.com/user-attachments/assets/a301e8ea-178b-479b-940d-e883576a7931) |
